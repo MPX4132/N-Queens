@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C313A76B1FDE3D5F00184453 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		C33F30781CA1009A00090329 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		C3E514521C99BDDB00B7B966 /* N-Queens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "N-Queens"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E514551C99BDDB00B7B966 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 				C3E5145C1C99C22A00B7B966 /* Evolution.cpp */,
 				C3E5145D1C99C22A00B7B966 /* Evolution.hpp */,
 				C33F30781CA1009A00090329 /* makefile */,
+				C313A76B1FDE3D5F00184453 /* README.md */,
 			);
 			path = "N-Queens";
 			sourceTree = "<group>";
