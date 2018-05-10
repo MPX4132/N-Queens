@@ -179,8 +179,8 @@ Evolution::Genotype::Genotype(const Evolution::Genotype &genotype)
 }
 
 Evolution::Genotype::Genotype(const int geneLength):
-_gene(geneLength),
-_fitness(geneLength) // Assume worst case scenario
+_fitness(geneLength), // Assume worst case scenario
+_gene(geneLength)
 {
 	// Generate the genes for the gene pool.
 	// The expression below generates numbers from 0 to n-1,
@@ -332,8 +332,8 @@ Evolution::Population Evolution::_extractNonSurvivors(Population &population, in
 Evolution::Evolution(const int geneLength, const int generationLimit):
 _population((geneLength > 10)? (geneLength * 10) : 100, Genotype(geneLength)),
 _populationSize((geneLength > 10)? (geneLength * 10) : 100),
-_progress(0),
-_progressLimit(generationLimit)
+_progressLimit(generationLimit),
+_progress(0)
 {
 	// Generate a seed and seed the randomizer
 	Evolution::Randomizer = std::default_random_engine(static_cast<unsigned int>(std::clock()));
